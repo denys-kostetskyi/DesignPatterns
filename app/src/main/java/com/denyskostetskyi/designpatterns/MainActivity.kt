@@ -7,6 +7,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.denyskostetskyi.designpatterns.creational.abstractfactory.AbstractFactoryDemo
 import com.denyskostetskyi.designpatterns.common.device.DeviceOs
+import com.denyskostetskyi.designpatterns.creational.builder.BuilderDemo
 import com.denyskostetskyi.designpatterns.creational.factorymethod.FactoryMethodDemo
 
 class MainActivity : AppCompatActivity() {
@@ -25,5 +26,6 @@ class MainActivity : AppCompatActivity() {
     private fun runPatterns() {
         AbstractFactoryDemo.run(DeviceOs.ANDROID)
         FactoryMethodDemo.run(DeviceOs.ANDROID)
+        BuilderDemo.run()
     }
 }
