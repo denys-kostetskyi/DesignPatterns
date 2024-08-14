@@ -1,7 +1,7 @@
 package com.denyskostetskyi.designpatterns.creational.abstractfactory
 
-import com.denyskostetskyi.designpatterns.creational.abstractfactory.device.AndroidPhone
-import com.denyskostetskyi.designpatterns.creational.abstractfactory.device.AndroidTablet
+import com.denyskostetskyi.designpatterns.common.device.AndroidPhone
+import com.denyskostetskyi.designpatterns.common.device.AndroidTablet
 
 class AndroidDeviceFactory : DeviceFactory {
     override fun createPhone() = AndroidPhone()

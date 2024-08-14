@@ -1,4 +1,4 @@
-package com.denyskostetskyi.designpatterns.creational.abstractfactory.device
+package com.denyskostetskyi.designpatterns.common.device
 
 class AndroidTablet : Tablet() {
     override val name: String
