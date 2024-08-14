@@ -17,31 +17,16 @@ class DatabaseConnection private constructor(
         private var user = "admin"
         private var password = "admin"
 
-        fun database(database: String): Builder {
-            this.database = database
-            return this
-        }
+        fun database(database: String) = apply { this.database = database }
 
-        fun host(host: String): Builder {
-            this.host = host
-            return this
-        }
+        fun host(host: String) = apply { this.host = host }
 
-        fun port(port: Int): Builder {
-            this.port = port
-            return this
-        }
+        fun port(port: Int) = apply { this.port = port }
 
-        fun user(user: String): Builder {
-            this.user = user
-            return this
-        }
+        fun user(user: String) = apply { this.user = user }
 
-        fun password(password: String): Builder {
-            this.password = password
-            return this
-        }
+        fun password(password: String) = apply { this.password = password }
 
-        fun build(): DatabaseConnection = DatabaseConnection(database, host, port, user, password)
+        fun build() = DatabaseConnection(database, host, port, user, password)
     }
 }
