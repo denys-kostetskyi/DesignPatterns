@@ -1,7 +1,7 @@
 package com.denyskostetskyi.designpatterns.creational.abstractfactory
 
 import android.util.Log
-import com.denyskostetskyi.designpatterns.creational.abstractfactory.device.DeviceOs
+import com.denyskostetskyi.designpatterns.common.device.DeviceOs
 
 class AbstractFactoryDemo {
     companion object {

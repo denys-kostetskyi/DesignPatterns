@@ -1,4 +1,4 @@
-package com.denyskostetskyi.designpatterns.creational.abstractfactory.device
+package com.denyskostetskyi.designpatterns.common.device
 
 abstract class Tablet {
     abstract val name: String

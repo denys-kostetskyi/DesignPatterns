@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.denyskostetskyi.designpatterns.creational.abstractfactory.AbstractFactoryDemo
-import com.denyskostetskyi.designpatterns.creational.abstractfactory.device.DeviceOs
+import com.denyskostetskyi.designpatterns.common.device.DeviceOs
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,7 +1,7 @@
 package com.denyskostetskyi.designpatterns.creational.abstractfactory
 
-import com.denyskostetskyi.designpatterns.creational.abstractfactory.device.Phone
-import com.denyskostetskyi.designpatterns.creational.abstractfactory.device.Tablet
+import com.denyskostetskyi.designpatterns.common.device.Phone
+import com.denyskostetskyi.designpatterns.common.device.Tablet
 
 interface DeviceFactory {
     fun createPhone(): Phone
