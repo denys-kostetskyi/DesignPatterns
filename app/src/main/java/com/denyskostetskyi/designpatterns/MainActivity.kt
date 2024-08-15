@@ -5,6 +5,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.denyskostetskyi.designpatterns.behavioral.chainofresponsibility.ChainOfResponsibilityDemo
 import com.denyskostetskyi.designpatterns.creational.abstractfactory.AbstractFactoryDemo
 import com.denyskostetskyi.designpatterns.common.device.DeviceOs
 import com.denyskostetskyi.designpatterns.creational.builder.BuilderDemo
@@ -29,5 +30,6 @@ class MainActivity : AppCompatActivity() {
         FactoryMethodDemo.run(DeviceOs.ANDROID)
         BuilderDemo.run()
         DecoratorDemo.run()
+        ChainOfResponsibilityDemo.run()
     }
 }
