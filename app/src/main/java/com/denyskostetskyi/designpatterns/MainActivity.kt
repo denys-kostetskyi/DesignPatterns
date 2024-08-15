@@ -9,6 +9,7 @@ import com.denyskostetskyi.designpatterns.creational.abstractfactory.AbstractFac
 import com.denyskostetskyi.designpatterns.common.device.DeviceOs
 import com.denyskostetskyi.designpatterns.creational.builder.BuilderDemo
 import com.denyskostetskyi.designpatterns.creational.factorymethod.FactoryMethodDemo
+import com.denyskostetskyi.designpatterns.structural.decorator.DecoratorDemo
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,5 +28,6 @@ class MainActivity : AppCompatActivity() {
         AbstractFactoryDemo.run(DeviceOs.ANDROID)
         FactoryMethodDemo.run(DeviceOs.ANDROID)
         BuilderDemo.run()
+        DecoratorDemo.run()
     }
 }
